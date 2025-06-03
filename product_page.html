@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="product_page.css">
+
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="header">
+        <a href="home.html">
+            <img src="https://imgur.com/Q5hbPkp.png" alt="TikTok Logo" class="logo">
+        </a>
+        <div class="checkout-container">
+            <button class="checkout-btn" onclick="location.href='checkout.html'">Checkout</button>
+        </div>
+    </div>
+
+    <!-- Product Details -->
+    <div class="product-detail-container">
+        <div class="product-image">
+            <img src="https://i.imgur.com/yfmCU76.jpeg" alt="Product Image">
+        </div>
+        <div class="product-info">
+            <h1>The Sweater</h1>
+            <p class="product-price">$1000.00</p>
+            <button class="btn" onclick="addToCart()">Add to Cart</button>
+        </div>
+    </div>
+
+
+    <!-- Add To Cart Button Functions -->
+    <script>
+        function addToCart() {
+            alert("Item Added To Cart");
+            
+        }
+    </script>
+
+</body>
+
+</html>

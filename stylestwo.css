@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #000; /* Black TikTok theme */
+    color: #fff;
+}
+
+/* Header Styles */
+.header {
+    width: 100%;
+    background-color: #181818; /* Dark gray background for header */
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centers the TikTok logo */
+    position: relative; /* Allows absolute positioning of the checkout button */
+}
+
+.logo {
+    width: 150px; /* Adjust logo size */
+}
+
+/* Checkout Button Container */
+.checkout-container {
+    position: absolute; /* Positioned relative to the header */
+    top: 50%; /* Vertically center within the header */
+    right: 100px; /* Align to the right of the header */
+    transform: translateY(-50%); /* Correct vertical alignment */
+}
+
+/* Checkout Button Styles */
+.checkout-btn {
+    width: 150px;
+    padding: 10px;
+    background-color: #ff0050; /* TikTok primary red color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.checkout-btn:hover {
+    background-color: #e60045; /* Slightly darker red on hover */
+}
+
+/* Product Details Styles */
+.product-detail-container {
+    display: flex;
+    margin: 50px auto;
+    max-width: 1200px;
+    padding: 20px;
+    background-color: #fff; /* White background for product details */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    color: #333; /* Dark text color */
+}
+
+.product-image img {
+    width: 300px; /* Fixed width for product image */
+    height: auto;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.product-info {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.product-info h1 {
+    font-size: 24px;
+    margin: 0 0 10px;
+}
+
+.product-price {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0 20px;
+}
+
+/* Add to Cart Button Styles */
+.btn {
+    width: 150px;
+    padding: 10px;
+    background-color: #ff0050; /* TikTok primary red color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #e60045; /* Slightly darker shade for hover effect */
+}
